@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+body {
+    background-color: lightgray;
+    margin: 0px;
+}
+header {
+    background-image: linear-gradient(#3225E8, #191273, #100C4A);
+    padding: 20px;
+    margin: 0px;
+}
+header > h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+header > h2 {
+    text-align: center;
+    color: white;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+main {
+    background-color: white;
+    margin: 0px 70px 70px 70px;
+    padding: 10px;
+    box-shadow: 2px 4px 5px -2px black;
+}
+#techfont {
+    font-family: 'Zen Dots', sans-serif;
+    background-image: linear-gradient(to right,#9C9C9C, #C4C4C4, #EDEDED);
+}
+#techfont1 {
+    font-family: 'Zen Dots', sans-serif;
+}
+.txt {
+    text-indent: 25px;
+}
+nav > a:hover {
+    color: lightgray;
+    text-decoration: underline;
+}
+nav > a:active {
+    color: gray;
+}
+#metaversegirl {
+    padding: 0px 120px 50px 0px;
+}
+#midleimg {
+    padding: 0px 120px 0px 0px;
+}
+.image-container {
+    overflow: hidden; /* Para limpar o float */
+} 
+#metaverseimg {
+    float: left;
+    padding: 0px 0px 0px 15px;
+    margin-right: 40px;
+    width: 285px;
+}
+#metaverseimg1 {
+    float: left;
+    margin-right: 20px;
+    width: 285px;
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Proporção 16:9 */
+    overflow: hidden;
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#finalsection {
+    background-color: lightgray;
+    margin: 9px;
+    padding: 4px;
+    box-shadow: 2px 4px 5px -2px black;
+    border-radius: 8px;
+}
+#finaltechfont {
+    font-family: 'Zen Dots', sans-serif;
+    background-color: gray;
+    margin: -4px;
+    padding: 4px;
+    border-radius: 8px 0px 0px 0px;
+}
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 1px;
+    margin: -54px 0px 0px 0px;
+}
+.android {
+    text-decoration: none;
+    color: black;
+}
+.android:hover {
+    text-decoration: underline;
+    color: blue;
+}
+.android:active {
+    color: lightblue;
+}
